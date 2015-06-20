@@ -1,0 +1,662 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body { 
+  font-family: 'Arvo', serif;
+  overflow-x:hidden;
+}
+
+.cont {
+text-align: center;	
+}
+
+.navbar {
+	margin-bottom: 0px;
+	position: fixed;
+	width: 100%	;
+	z-index: 2;
+}
+
+.nav>li>a:hover {
+ text-shadow: 1px 1px 10px #fff;
+   }
+
+ .active {
+ border: 1px solid #8CA2E8;
+	border-radius: 15px;
+ }
+
+.navbar-brand:hover {
+	position: fixed;
+	color: #fff;
+}
+
+.navbar-nav>li>a {
+   padding-top: 5px;
+padding-bottom: 5px;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+
+
+video#bgvid {
+position: fixed; right: 0; bottom: 0;
+min-width: 100%; min-height: 100%;
+width: auto; height: auto; z-index: -100;
+}
+
+
+.jumbotron {
+color: #8CA2E8;
+}
+
+.main-body {
+	position: relative;
+	width: 100%
+}
+
+video { display: block; }
+
+.homepage {
+	text-align: :center;
+}
+
+.homepage h2,.homepage h3 {
+	text-transform: uppercase;
+
+}
+
+.homepage h2 {
+	font-size: 30px;
+	text-align: center;
+	color: #222;
+	padding-top: 60px;
+}
+
+.homepage h3 {
+	font-size: 26px;
+}
+
+.homepage p {
+	font-size: 20px;
+	font-weight: 300;
+
+}
+
+.homepage a {
+	color: #222;
+	border-radius: 20px;
+}
+
+.homepage hr {
+	border-top: 1px solid #8CA2E8;
+
+}
+
+.homepage a:hover{
+	color:#8CA2E8;
+	text-decoration: none;
+	opacity: .8;
+}
+
+#education{
+	background-color: #dcedc8;
+
+	
+}
+
+#work-exp{
+	background-color: #c5e1a5;
+	
+}
+
+#projects{
+	background-color: #aed581;
+}
+
+#technologies{
+	background-color: #9ccc65;
+}
+
+#about-me{
+
+	background-image: url('../images/back.jpg');
+	background-size: cover;
+	color: #222;
+
+ }
+
+#contact-info{
+	background-color: #f5f5f5;	
+
+}
+
+#foot {
+	background-color: #000;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	color: #8CA2E8;
+	border-color: #080808;
+}
+
+.separate {
+	background-color: #BAC7F1;
+	border-radius: 15px;
+	padding: 10px;
+	margin-bottom: 30px;
+	margin-top: 20px;
+	-moz-box-shadow: 0 0 5px #888;
+-webkit-box-shadow: 0 0 5px#888;
+box-shadow: 0 0 5px #888;
+}
+
+.separate p {
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+
+}
+
+.col-md-4{
+	text-align: center;
+}
+
+.fa-stack{
+	color: #222;
+	margin-top: 20px;
+
+	-moz-box-shadow: 0 0 10px 10px #888;
+-webkit-box-shadow: 0 0 10px 10px#888;
+box-shadow: 0 0 10px 10px #888;
+   border-radius: 60px
+}
+
+.fa-stack:hover{}
+
+.company{
+	width:100px;
+	height: 100px;
+	border-radius: 60px;	
+	float: left;
+	margin: auto 30px;
+	margin: 20px;	
+	padding-top: 38px;
+	padding-left: 28px;	
+	font-size: 20px;	
+	color: #8CA2E8;
+	background-image: url('../images/drawButton.png');
+}
+
+.left{
+	float: left;
+	width: 100%;	
+}
+
+#work-description{
+	padding: 20px 30px;
+}
+
+.describe>ul>li {
+padding-top: 10px;
+}
+
+.describe>ul {
+margin-top: 20px;
+}
+
+.company:hover{
+
+-moz-box-shadow: 0 0 8px 8px #D8D8D8;
+-webkit-box-shadow: 0 0 8px 8px #D8D8D8;
+box-shadow: 0 0 8px 8px #D8D8D8;
+cursor: pointer;
+}
+
+.sdsu-logo{
+	width: 25%;
+	height: 250px;
+	margin: 80px 37%;
+
+
+}
+
+#healthy{
+	color: #8CA2E8;
+	text-decoration: underline;
+
+}
+
+.click{
+-moz-box-shadow: 0 0 8px 8px #D8D8D8;
+-webkit-box-shadow: 0 0 8px 8px #D8D8D8;
+box-shadow: 0 0 8px 8px #D8D8D8;
+cursor: pointer;
+background-image: url('../images/drawB.png');
+}
+
+#sdsu {
+	padding-top: 25px;
+	padding-left: 20px;
+}
+
+#ibmer {
+	margin-left: 32%
+}
+
+.text {
+	color: #8CA2E8;
+}
+  
+.work {
+	
+	border: 1px solid #222;
+	border-radius: 5px;
+	margin-top: 200px;
+	padding-right: 20px;
+	color: #8CA2E8;
+	background-color: #222;
+	padding-top: 10px;	
+	padding-bottom: 10px;
+	-moz-box-shadow: 0 0 10px #222;
+-webkit-box-shadow: 0 0 10px#222;
+box-shadow: 0 0 10px #222;
+
+font-size: 16px;
+text-align: justify;
+}
+
+.work>ul>li{
+	padding-top: 8px;	
+}
+
+.projects {
+	width: 200px;
+	height: 50px;
+	background-color: #222;
+	margin-top: 10px;	
+	border-radius: 30px;
+	color: #8CA2E8;
+	padding-left: 10%;
+	padding-top: 10px;
+	font-size: 1.5em;
+
+
+}
+
+.projects:hover{
+	color: #fff;
+	cursor: pointer;
+
+
+}
+
+.project-menu{
+	float: left;
+	width:24%;
+	margin-top: 60px;
+}
+
+.projects-click{
+	color: #fff;
+}
+
+.projects-out{
+	color: #8CA2E8;
+}
+
+.project-info{
+	float: right;
+	width: 76%;
+	background-color: #222;	
+	border-radius: 10px;	
+
+	-moz-box-shadow: 0 0 5px #222;
+-webkit-box-shadow: 0 0 5px#222;
+box-shadow: 0 0 5px #222;
+}
+
+.describe{
+color: #8CA2E8;
+margin:20px 30px;
+font-size: 16px;
+text-align: justify;
+min-height: 330px;
+}
+
+.graduate{
+float: left;
+width: 30%;
+border:1px solid #222;
+position: absolute; 
+left: : -30%;
+color: #8CA2E8;
+background-color: #222;
+padding: 20px;
+text-align: justify;
+    -moz-text-align-last: right; /* Code for Firefox */
+    text-align-last: right;
+    border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+-moz-box-shadow: 0 0 10px #222;
+-webkit-box-shadow: 0 0 10px#222;
+box-shadow: 0 0 10px #222;
+
+}
+
+h5{
+	font-size: 28px;
+	text-decoration: underline;
+}
+
+#quote{
+	font-size: 30px;
+}
+
+.undergrad{
+float: right;
+width: 30%;
+border:1px solid #222;
+position: absolute; 
+right: -30%;
+color: #8CA2E8;
+background-color: #222;
+padding: 20px;
+text-align: justify;
+    -moz-text-align-last: right; /* Code for Firefox */
+    text-align-last: right;
+    border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+-moz-box-shadow: 0 0 10px #222;
+-webkit-box-shadow: 0 0 10px#222;
+box-shadow: 0 0 10px #222;
+}
+
+#parent {
+    width: 100%;
+}
+
+#ef{
+	line-height: 15px;
+	padding-top: 40px;
+}
+
+.message{
+    height: 120px;
+    width: 120px;
+    background-color: #222;
+    color: #8CA2E8;    
+    padding-top: 50px;
+    text-align: center;
+   
+    font-weight: bold;
+  
+margin: 20px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    border-radius: 60px;
+float: left;
+  -moz-box-shadow: 0 0 10px #222;
+-webkit-box-shadow: 0 0 10px#222;
+box-shadow: 0 0 10px #222;
+
+    position: relative;
+    -webkit-animation: myfirst 1s infinite; /* Safari and Chrome */
+    -webkit-animation-direction: normal; /* Safari and Chrome */
+    animation: myfirst 1s infinite;
+    animation-direction: alternate;
+
+
+}
+
+.message2{
+    height: 100px;
+    width: 100px;
+    background-color: #222;
+    color: #8CA2E8;    
+    padding-top: 38px;
+    text-align: center;
+   
+    font-weight: bold;
+    margin: 10px;
+
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    border-radius: 60px;
+float: left;
+  -moz-box-shadow: 0 0 10px #222;
+-webkit-box-shadow: 0 0 10px#222;
+box-shadow: 0 0 10px #222;
+
+    position: relative;
+    -webkit-animation: myfirst 2s infinite; /* Safari and Chrome */
+    -webkit-animation-direction: alternate; /* Safari and Chrome */
+    animation: myfirst 2s infinite;
+    animation-direction: alternate;
+
+   
+}
+
+#twoLines{
+	padding-top: 30px;
+}
+
+#twoL{
+	padding-top: 20px;
+}
+
+#width{
+	width: 100%;
+}
+.message3{
+    height: 80px;
+    width: 80px;
+    background-color: #222;
+    color: #8CA2E8;    
+    padding-top: 30px;
+    text-align: center;
+   
+    font-weight: bold;
+    margin: 10px;
+
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    border-radius: 60px;
+float: left;
+  -moz-box-shadow: 0 0 10px #222;
+-webkit-box-shadow: 0 0 10px#222;
+box-shadow: 0 0 10px #222;
+
+
+    position: relative;
+    -webkit-animation: myfirst 1s infinite; /* Safari and Chrome */
+    -webkit-animation-direction: alternate; /* Safari and Chrome */
+    animation: myfirst 1s infinite;
+    animation-direction: reverse;
+}
+
+.message:hover,.message2:hover,.message3:hover {
+	-webkit-animation-play-state: paused; /* Safari and Chrome */
+    animation-play-state: paused;
+    -moz-box-shadow: 0 0 10px #222;
+-webkit-box-shadow: 0 0 10px#222;
+box-shadow: 0 0 10px #222;
+color: #fff;
+}
+
+.m1{
+	height: 160px;
+	
+	width: 100%;
+	display: block;
+	margin-top: 10px;
+}
+
+.m2{
+	height: 160px;
+	
+	width: 100%;
+	display: block;
+	margin-top: 10px;
+}
+
+.m3{
+	height: 160px;
+	
+	width: 100%;
+	display: block;
+	margin-top: 10px;
+}
+
+#work-exp{
+	min-height: 700px;
+}
+
+#projects{
+	min-height: 700px;
+}
+
+#education{
+	min-height: 700px;
+}
+
+#technologies{
+	
+min-height: 700px;
+}
+
+#edu-full{
+	width: 100%;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.hideme{
+	opacity: 0;
+}
+
+#home{
+	min-height: 700px;
+}
+#about-me{
+	min-height: 700px;
+}
+
+
+
+
+/* Safari and Chrome */
+@-webkit-keyframes myfirst {
+    0%   { left:2x; top:1px;}
+    10%  {left:-1px; top:-2px;}
+    20%  {left:-3px; top:0px;}
+    30%  { left:0px; top:2px;}
+    40% {left:1px; top:-1px;}
+    50%   { left:-1px; top:2px;}
+    60%  { left:-3px; top:1px;}
+    70%  { left:2px; top:1px;}
+    80%  { left:-1px; top:-1px;}
+90%  { left:2px; top:2px;}
+    100% {left:1px; top:-2px;}
+}
+
+@keyframes myfirst {
+    0%   { left:2x; top:1px;}
+    10%  {left:-1px; top:-2px;}
+    20%  {left:-3px; top:0px;}
+    30%  { left:0px; top:2px;}
+    40% {left:1px; top:-1px;}
+    50%   { left:-1px; top:2px;}
+    60%  { left:-3px; top:1px;}
+    70%  { left:2px; top:1px;}
+    80%  { left:-1px; top:-1px;}
+90%  { left:2px; top:2px;}
+    100% {left:1px; top:-2px;}
+    }
+	
+
+@media (max-width: 767px) { 
+.homepage p {
+		font-size: 12px;
+	}
+
+h5{
+	font-size: 20px;
+}
+
+#quote {
+font-size: 22px;
+}
+
+#ibmer {
+ margin-left: 0%; 
+}
+
+.projects {
+font-size: 1.3em;
+}
+
+.graduate {
+	padding: 10px;
+}
+
+.undergrad{
+	padding: 10px;
+}
+
+.message {
+height: 60px;
+width: 60px;
+}
+
+.message2 {
+height: 50px;
+width: 50px;
+}
+
+.message3 {
+height: 40px;
+width: 40px;
+}
+
+
+.graduate, .undergrad {	
+position: relative;
+}
+
+.sdsu-logo{
+	display: none;
+}
+
+.message, .message2, .message3{
+	-webkit-animation-play-state: paused; /* Safari and Chrome */
+    animation-play-state: paused;
+
+
+  height: 40px;
+  width: 90px;
+
+  padding-top: 10px;
+
+margin: 10px;
+
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+
+  -moz-box-shadow: 0 0 10px #222;
+-webkit-box-shadow: 0 0 10px#222;
+box-shadow: 0 0 10px #222;
+
+    position: relative;
+    
+}
+
+.describe{
+font-size: 10px;
+}
+
+#twoLines, #twoL, #ef{
+	padding-top: 0px;
+}
+
+
+
+}
